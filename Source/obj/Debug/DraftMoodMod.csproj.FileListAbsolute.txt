@@ -1,0 +1,7 @@
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\obj\Debug\DraftMoodMod.csproj.AssemblyReference.cache
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\obj\Debug\DraftMoodMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\obj\Debug\DraftMoodMod.csproj.CoreCompileInputs.cache
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\Assemblies\DraftMoodMod.dll
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\Assemblies\DraftMoodMod.pdb
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\obj\Debug\DraftMoodMod.dll
+C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\obj\Debug\DraftMoodMod.pdb

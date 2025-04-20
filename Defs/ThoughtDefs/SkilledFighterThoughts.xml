@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MySkilledFighterMood</defName>
+    <workerClass>DraftMoodMod.ThoughtWorker_SkilledFighter</workerClass> 
+    <validWhileDespawned>true</validWhileDespawned> 
+    <!-- Even if the pawn is not on the map (e.g. in the caravan), the drop is calculated -->
+    <!-- I haven't tried it to see if it works on another map, but I set it to true just to be sure. -->
+
+    <stages>
+      <!-- Stage 0: High level (>= 15) -->
+      <li>
+          <label>Master Warrior</label> 
+          <description>My high melee or shooting skills give me great confidence and make me feel valuable.</description>
+          <baseMoodEffect>7</baseMoodEffect> <!-- +7 Mood -->
+      </li>
+      <!-- Stage 1: Mid level (7-14) -->
+      <li>
+          <label>Skilled Warrior</label>
+          <description>My competence in melee or shooting makes me feel good.</description>
+          <baseMoodEffect>3</baseMoodEffect> <!-- +3 Mood -->
+      </li>
+  </stages>
+
+    <!-- Since this idea is managed by a Worker, durationDays or stackLimit is usually not needed, 
+         because the Worker determines the state of each calculation. -->
+    
+  </ThoughtDef>
+
+</Defs>

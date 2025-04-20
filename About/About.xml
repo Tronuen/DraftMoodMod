@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>DraftMoodMod</name>
+  <author>Tronuen</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <packageId>Tronuen.DraftMoodMod</packageId>
+  <previewImage>Preview.jpg</previewImage>
+  <modVersion>1.0</modVersion>
+  <description>
+    Pawns gain mood buffs based on their combat prowess!
+    This mod grants positive thoughts to colonists who reach configurable skill thresholds in Shooting or Melee.
+    Adjust the required skill levels and mood bonuses in the Mod Settings menu.
+  </description>
+</ModMetaData>

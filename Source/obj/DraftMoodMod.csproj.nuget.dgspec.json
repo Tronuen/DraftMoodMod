@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj": {}
+  },
+  "projects": {
+    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj",
+        "projectName": "DraftMoodMod",
+        "projectPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj",
+        "packagesPath": "C:\\Users\\Aziz_ul_Azazat\\.nuget\\packages\\",
+        "outputPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aziz_ul_Azazat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.3.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-preview.3.25201.16\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
