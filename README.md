@@ -7,7 +7,7 @@ When a pawn reaches a certain skill level in either Shooting or Melee, they will
 - Pawns with Shooting or Melee skills above the 'Skilled' threshold gain a moderate mood boost.
 - Pawns with Shooting or Melee skills above the 'Master' threshold gain a significant mood boost.
 
-![Preview](https://github.com/user-attachments/assets/d373259c-9682-4241-9b22-23c21c49e900)
+![Preview](https://github.com/user-attachments/assets/ab2ebdcc-cb19-4f7d-b8a7-26e9b1884e19)
 
 These thresholds are set to default values of 7 for Skilled and 15 for Master. Both the skill thresholds and the mood bonus amounts (default: +3 for Skilled, +7 for Master) can be easily customized through the Mod Settings menu to fit your desired game balance.
 
