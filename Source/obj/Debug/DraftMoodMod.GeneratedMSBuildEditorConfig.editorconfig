@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = DraftMoodMod
-build_property.ProjectDir = C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\Source\
+build_property.ProjectDir = C:\GOG Games\RimWorld\Mods\Draft_Mood_Mod\source\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

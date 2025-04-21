@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Mod Ayarları -->
+  <DraftMoodMod_SettingsCategory>DraftMood (Görevlendirme Morali)</DraftMoodMod_SettingsCategory>
+
+  <DraftMoodMod_MasterThresholdLabel>Usta Savaşçı Yetenek Eşiği</DraftMoodMod_MasterThresholdLabel>
+  <DraftMoodMod_SkilledThresholdLabel>Yetenekli Savaşçı Yetenek Eşiği</DraftMoodMod_SkilledThresholdLabel>
+  <DraftMoodMod_MasterMoodBonusLabel>Usta Savaşçı Moral Bonusu (+)</DraftMoodMod_MasterMoodBonusLabel>
+  <DraftMoodMod_SkilledMoodBonusLabel>Yetenekli Savaşçı Moral Bonusu (+)</DraftMoodMod_SkilledMoodBonusLabel>
+
+  <!-- Ayarlar Menüsündeki Dinamik Etiketler İçin Formatlama -->
+  <!-- {0} gibi yer tutucular C# kodundan gelen değeri alır -->
+  <DraftMoodMod_CurrentValueLabel>{0}: {1}</DraftMoodMod_CurrentValueLabel>
+  <!-- Örnek Kullanım: "DraftMoodMod_CurrentValueLabel".Translate("Usta Eşiği", settings.masterThreshold) -->
+  <!-- VEYA daha basiti, sadece etiketi çevirip değeri C#'ta eklemek: -->
+   <DraftMoodMod_MasterThresholdSliderLabel>Usta Eşiği</DraftMoodMod_MasterThresholdSliderLabel>
+   <DraftMoodMod_SkilledThresholdSliderLabel>Yetenekli Eşiği</DraftMoodMod_SkilledThresholdSliderLabel>
+   <DraftMoodMod_MasterMoodBonusSliderLabel>Usta Bonusu (+)</DraftMoodMod_MasterMoodBonusSliderLabel>
+   <DraftMoodMod_SkilledMoodBonusSliderLabel>Yetenekli Bonusu (+)</DraftMoodMod_SkilledMoodBonusSliderLabel>
+
+
+  <DraftMoodMod_ResetButton>Varsayılana Sıfırla</DraftMoodMod_ResetButton>
+
+</LanguageData>

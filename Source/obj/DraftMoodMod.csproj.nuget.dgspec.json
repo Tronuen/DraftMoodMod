@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj": {}
+    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\source\\DraftMoodMod.csproj": {}
   },
   "projects": {
-    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj": {
+    "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\source\\DraftMoodMod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj",
+        "projectUniqueName": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\source\\DraftMoodMod.csproj",
         "projectName": "DraftMoodMod",
-        "projectPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\DraftMoodMod.csproj",
+        "projectPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\source\\DraftMoodMod.csproj",
         "packagesPath": "C:\\Users\\Aziz_ul_Azazat\\.nuget\\packages\\",
-        "outputPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\Source\\obj\\",
+        "outputPath": "C:\\GOG Games\\RimWorld\\Mods\\Draft_Mood_Mod\\source\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aziz_ul_Azazat\\AppData\\Roaming\\NuGet\\NuGet.Config"

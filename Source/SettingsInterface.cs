@@ -16,11 +16,11 @@ namespace DraftMoodMod
         // Name that will appear in the mod options list
         public override string SettingsCategory()
         {
-            return "Draft Mood Mod"; 
+            return "DraftMoodMod_SettingsCategory".Translate(); // Translated name for the settings category
         }
 
 
-        private void DrawLabelAndSlider(Listing_Standard listing, string label, ref int value, float min, float max, float labelWidthPct = 0.7f)
+        private void DrawLabelAndSlider(Listing_Standard listing, string labelKey, ref int value, float min, float max, float labelWidthPct = 0.7f)
         {
             float rowHeight = 30f; // Text.LineHeight * 1.5f
 
@@ -49,9 +49,10 @@ namespace DraftMoodMod
             // --- Draw ---
 
             // 1. Draw the Label
-            TextAnchor originalAnchor = TextAnchor.MiddleCenter;
+            TextAnchor originalAnchor = Text.Anchor;
             Text.Anchor = TextAnchor.MiddleLeft; // Center the label vertically, left-align it horizontally
-            Widgets.Label(labelRect, $"{label}: {value}"); // Label with value
+
+            Widgets.Label(labelRect, $"{labelKey.Translate()}: {value}");   // Translate the label key and append the current value
             Text.Anchor = originalAnchor; // Restore original anchor
 
             // 2. Draw the Slider
@@ -84,20 +85,20 @@ namespace DraftMoodMod
             listingStandard.Begin(inRect);
 
             // --- Master Warrior Threshold ---
-            DrawLabelAndSlider(listingStandard, "Master Warrior Skill Threshold: ", ref settings.masterThreshold, 0f, 20f); // Range 0-20
+            DrawLabelAndSlider(listingStandard, "DraftMoodMod_MasterThresholdSliderLabel", ref settings.masterThreshold, 0f, 20f); // Range 0-20
 
             // --- Skilled Warrior Threshold ---
-            DrawLabelAndSlider(listingStandard, "Skilled Warrior Skill Threshold: ", ref settings.skilledThreshold, 0f, 20f); // Range 0-20
+            DrawLabelAndSlider(listingStandard, "DraftMoodMod_SkilledThresholdSliderLabel", ref settings.skilledThreshold, 0f, 20f); // Range 0-20
 
             // --- Master Warrior Mood Bonus ---
-            DrawLabelAndSlider(listingStandard, "Master Warrior Mood Bonus: ", ref settings.masterMoodBonus, 0f, 20f); // Range 0-20
+            DrawLabelAndSlider(listingStandard, "DraftMoodMod_MasterMoodBonusSliderLabel", ref settings.masterMoodBonus, 0f, 20f); // Range 0-20
 
             // --- Skilled Warrior Mood Bonus ---
-            DrawLabelAndSlider(listingStandard, "Skilled Warrior Mood Bonus: ", ref settings.skilledMoodBonus, 0f, 20f); // Range 0-20
+            DrawLabelAndSlider(listingStandard, "DraftMoodMod_SkilledMoodBonusSliderLabel", ref settings.skilledMoodBonus, 0f, 20f); // Range 0-20
             listingStandard.GapLine(24f); // Slightly larger gap
 
             // --- Reset Button ---
-            if (listingStandard.ButtonText("Reset Settings to Default"))
+            if (listingStandard.ButtonText("DraftMoodMod_ResetButton".Translate()))
             {
                 settings.ResetToDefaults();
             }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- MySkilledFighterMood ThoughtDef için Çeviriler -->
+
+  <!-- Stage 0: Usta Savaşçı -->
+  <MySkilledFighterMood.stages.0.label>Usta Savaşçı</MySkilledFighterMood.stages.0.label>
+  <MySkilledFighterMood.stages.0.description>Yüksek yakın dövüş veya nişancılık yeteneklerim bana büyük bir özgüven veriyor ve değerli hissettiriyor.</MySkilledFighterMood.stages.0.description>
+
+  <!-- Stage 1: Yetenekli Savaşçı -->
+  <MySkilledFighterMood.stages.1.label>Yetenekli Savaşçı</MySkilledFighterMood.stages.1.label>
+  <MySkilledFighterMood.stages.1.description>Yakın dövüş veya nişancılıktaki yeterliliğim iyi hissettiriyor.</MySkilledFighterMood.stages.1.description>
+
+</LanguageData>

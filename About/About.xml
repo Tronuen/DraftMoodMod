@@ -16,6 +16,7 @@
   <packageId>Tronuen.DraftMoodMod</packageId>
   <previewImage>Preview.jpg</previewImage>
   <modVersion>1.0</modVersion>
+  <url>https://github.com/Tronuen/DraftMoodMod</url>
   <description>
     Pawns gain mood buffs based on their combat prowess!
     This mod grants positive thoughts to colonists who reach configurable skill thresholds in Shooting or Melee.
